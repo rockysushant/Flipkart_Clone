@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+       android:scrollbars="none"
+       >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="85dp"
+                    android:layout_height="96dp"
+                    android:id="@+id/btnoffer"
+                    android:src="@drawable/offerzone" />
+
+                <ImageView
+                    android:layout_width="93dp"
+                    android:layout_height="99dp"
+                    android:paddingLeft="15dp"
+                    android:id="@+id/btnMobile"
+                    android:src="@drawable/mobile" />
+
+
+                <ImageView
+                    android:layout_width="104dp"
+                    android:layout_height="99dp"
+                    android:paddingLeft="15dp"
+                    android:id="@+id/btngrocery"
+                    android:src="@drawable/categories_grocery" />
+
+
+                <ImageView
+                    android:layout_width="105dp"
+                    android:layout_height="99dp"
+                    android:paddingLeft="15dp"
+                    android:id="@+id/btnfashion"
+                    android:src="@drawable/fashion" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="85dp"
+                    android:layout_height="96dp"
+                    android:id="@+id/btnelectronic"
+                    android:src="@drawable/electronic" />
+
+                <ImageView
+                    android:layout_width="93dp"
+                    android:layout_height="99dp"
+                    android:paddingLeft="15dp"
+                    android:id="@+id/btnhome"
+                    android:src="@drawable/home" />
+
+
+                <ImageView
+                    android:layout_width="104dp"
+                    android:layout_height="99dp"
+                    android:paddingLeft="15dp"
+                    android:id="@+id/btnpersonalCare"
+                    android:src="@drawable/personalcare" />
+
+
+                <ImageView
+                    android:layout_width="105dp"
+                    android:layout_height="99dp"
+                    android:paddingLeft="15dp"
+                    android:id="@+id/btnappliances"
+                    android:src="@drawable/appliances" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="85dp"
+                    android:layout_height="96dp"
+                    android:id="@+id/btntoy"
+                    android:src="@drawable/toy" />
+
+                <ImageView
+                    android:layout_width="93dp"
+                    android:layout_height="99dp"
+                    android:paddingLeft="15dp"
+                    android:id="@+id/btnfurniture"
+                    android:src="@drawable/furn" />
+
+
+                <ImageView
+                    android:layout_width="104dp"
+                    android:layout_height="99dp"
+                    android:paddingLeft="15dp"
+                    android:id="@+id/btnfights"
+                    android:src="@drawable/flights" />
+
+
+                <ImageView
+                    android:layout_width="105dp"
+                    android:layout_height="99dp"
+                    android:paddingLeft="15dp"
+                    android:id="@+id/btnInsurance"
+                    android:src="@drawable/insurance" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="85dp"
+                    android:layout_height="96dp"
+                    android:id="@+id/btnsports"
+                    android:src="@drawable/sportss" />
+
+                <ImageView
+                    android:layout_width="93dp"
+                    android:layout_height="99dp"
+                    android:paddingLeft="15dp"
+                    android:id="@+id/btnnutrition"
+                    android:src="@drawable/nutittion" />
+
+
+                <ImageView
+                    android:layout_width="104dp"
+                    android:layout_height="99dp"
+                    android:paddingLeft="15dp"
+                    android:id="@+id/btnbikes"
+                    android:src="@drawable/bikes" />
+
+
+                <ImageView
+                    android:layout_width="105dp"
+                    android:layout_height="99dp"
+                    android:paddingLeft="15dp"
+                    android:id="@+id/btngifts"
+                    android:src="@drawable/giftcard" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="85dp"
+                    android:layout_height="96dp"
+                    android:id="@+id/btnmedicine"
+                    android:src="@drawable/medicinee" />
+
+                <ImageView
+                    android:layout_width="93dp"
+                    android:layout_height="99dp"
+                    android:paddingLeft="15dp"
+                    android:id="@+id/btnhomeservice"
+                    android:src="@drawable/homeservice" />
+
+
+                <ImageView
+                    android:layout_width="104dp"
+                    android:layout_height="99dp"
+                    android:paddingLeft="15dp"
+                    android:id="@+id/btnsellback"
+                    android:src="@drawable/sellback" />
+
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.utils.widget.ImageFilterView
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:src="@drawable/moreonflip"/>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnsupercoin"
+                    android:src="@drawable/supercoin" />
+
+
+                <ImageView
+                    android:layout_width="93dp"
+                    android:layout_height="99dp"
+                    android:paddingLeft="15dp"
+                    android:id="@+id/btncoupon"
+                    android:src="@drawable/coupon" />
+
+                <ImageView
+                    android:layout_width="104dp"
+                    android:layout_height="99dp"
+                    android:paddingLeft="15dp"
+                    android:id="@+id/btnfeed"
+                    android:src="@drawable/feed" />
+
+
+                <ImageView
+                    android:layout_width="103dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btncredit"
+                    android:paddingLeft="15dp"
+                    android:src="@drawable/credit" />
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnwhatsnew"
+                    android:src="@drawable/whatsnew" />
+
+
+                <ImageView
+                    android:layout_width="93dp"
+                    android:layout_height="99dp"
+                    android:paddingLeft="15dp"
+                    android:id="@+id/btnfiredrop"
+                    android:src="@drawable/firedrop" />
+
+                <ImageView
+                    android:layout_width="104dp"
+                    android:layout_height="99dp"
+                    android:paddingLeft="15dp"
+                    android:id="@+id/btncamera"
+                    android:src="@drawable/camera" />
+
+
+                <ImageView
+                    android:layout_width="103dp"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="15dp"
+                    android:id="@+id/btngames"
+                    android:src="@drawable/games" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+<!--                <ImageView-->
+<!--                    android:layout_width="90dp"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:id="@+id/sellerrrr"-->
+<!--                    android:src="@drawable/becomeaseller" />-->
+
+
+                <ImageView
+                    android:layout_width="93dp"
+                    android:layout_height="99dp"
+                    android:paddingLeft="2dp"
+                    android:id="@+id/btnliveshop"
+                    android:src="@drawable/liveshop" />
+
+                <ImageView
+                    android:layout_width="104dp"
+                    android:layout_height="99dp"
+                    android:paddingLeft="15dp"
+                    android:id="@+id/btnpluszone"
+                    android:src="@drawable/plusxone" />
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.utils.widget.ImageFilterView
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:src="@drawable/categories_trendingstore"/>
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="5dp"
+
+
+
+                    android:id="@+id/flipkartoriginal"
+
+                    android:src="@drawable/flipkartoriginal">
+
+                </ImageView>
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="10dp"
+
+
+                    android:id="@+id/flipkartsamarth"
+
+                    android:src="@drawable/samarth">
+
+                </ImageView>
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="5dp"
+
+
+                    android:id="@+id/flipkartgreen"
+
+
+                    android:src="@drawable/flipkartgreen">
+
+                </ImageView>
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="10dp"
+
+                    android:id="@+id/flipkartweeding"
+
+
+                    android:src="@drawable/wedding">
+
+                </ImageView>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="5dp"
+
+
+                    android:id="@+id/internationalstore"
+
+
+                    android:src="@drawable/internationstore">
+
+                </ImageView>
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="10dp"
+
+                    android:id="@+id/winter"
+
+                    android:src="@drawable/winter">
+
+                </ImageView>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="5dp"
+
+
+                    android:id="@+id/travelstore"
+
+
+                    android:src="@drawable/travelstor">
+
+                </ImageView>
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="10dp"
+
+                    android:id="@+id/launchhub"
+
+                    android:src="@drawable/launchhub">
+
+                </ImageView>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+        </ScrollView>
+
+
+
+
+
+</LinearLayout>

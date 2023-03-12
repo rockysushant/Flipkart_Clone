@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "203571930393",
+    "project_id": "flipkart-7c490",
+    "storage_bucket": "flipkart-7c490.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203571930393:android:73b4c1d55330fad4cd9188",
+        "android_client_info": {
+          "package_name": "com.example.bottomnavigatorbig"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "203571930393-29ngj9qhe5gouidkp4js9m5fhcj1b283.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT5506ijJJMHEtc3pQNyVQT58urDD9pSM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "203571930393-29ngj9qhe5gouidkp4js9m5fhcj1b283.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

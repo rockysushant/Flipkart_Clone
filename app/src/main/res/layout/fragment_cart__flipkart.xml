@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#BEE8E4"
+    android:orientation="vertical"
+    tools:context=".cart_Flipkart">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp">
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textSize="14dp"
+                android:textStyle="italic"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/black"
+                android:text="Deliver to :  New Delhi - 110043"
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="110dp"
+                android:layout_height="30dp"
+
+                android:elevation="15dp"
+                android:layout_marginTop="12dp"
+
+                app:cardBackgroundColor="@color/white"
+                android:layout_marginLeft="260dp">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Change"
+                    android:layout_centerHorizontal="true"
+                    android:textAlignment="center"
+
+
+                    android:textColor="@color/purple_500"
+                    android:textStyle="bold"
+                    android:textSize="17dp">
+
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:padding="0dp"
+            android:layout_marginTop="8dp"
+
+            android:background="@color/white"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical"
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Roadster Men Solid Casual Dark Green...."
+                    android:textSize="15sp"
+                    android:layout_marginLeft="90dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="90dp"
+                    android:text="Size: 40"
+                    android:layout_marginTop="3dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/teal_700"
+
+                    android:textSize="15sp" >
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="90dp"
+                    android:text="₹ 840"
+                    android:textStyle="bold"
+                    android:layout_marginTop="3dp"
+
+                    android:textColor="@color/black"
+                    android:textSize="17sp" >
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="90dp"
+                    android:text="Find Similar >"
+
+                    android:layout_marginTop="13dp"
+
+                    android:textColor="@color/purple_700"
+                    android:textSize="15sp" >
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="0dp"
+                    android:text="In Stock"
+                    android:textColor="@color/teal_700"
+                    android:textSize="15sp" >
+
+                </TextView>
+
+
+
+
+                <!--                    <View-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="3dp"-->
+                <!--                        android:layout_marginBottom="10dp"-->
+                <!--                        -->
+                <!--                        android:background="#000"-->
+                <!--                        android:layout_alignParentBottom="true"-->
+                <!--                       />-->
+                <!--                    -->
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="60dp"
+                        android:drawableStart="@drawable/baseline_delete_outline_24"
+
+                        android:text="Remove"
+                        android:textStyle="bold"
+
+
+                        >
+
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginLeft="100dp"
+                        android:text="Save For Later"
+
+                        android:drawableStart="@drawable/baseline_save_alt_24"
+                        android:textStyle="bold"
+
+
+                        >
+
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+
+                android:src="@drawable/cartimg"
+
+                android:layout_alignParentStart="true">
+
+            </ImageView>
+
+
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:padding="0dp"
+            android:layout_marginTop="8dp"
+
+            android:background="@color/white"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical"
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SAMSUNG Galaxy  F13, Waterfall Blue"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="90dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="90dp"
+                    android:text="4 GB RAM"
+                    android:layout_marginTop="3dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/teal_700"
+
+                    android:textSize="15sp" >
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="90dp"
+                    android:text="₹ 9,799"
+                    android:textStyle="bold"
+                    android:layout_marginTop="3dp"
+
+                    android:textColor="@color/black"
+                    android:textSize="17sp" >
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="90dp"
+                    android:text="Find Similar >"
+
+                    android:layout_marginTop="13dp"
+
+                    android:textColor="@color/purple_700"
+                    android:textSize="15sp" >
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="0dp"
+                    android:text="In Stock"
+                    android:textColor="@color/teal_700"
+                    android:textSize="15sp" >
+
+                </TextView>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="60dp"
+                        android:drawableStart="@drawable/baseline_delete_outline_24"
+
+                        android:text="Remove"
+                        android:textStyle="bold"
+
+
+                        >
+
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginLeft="100dp"
+                        android:text="Save For Later"
+
+                        android:drawableStart="@drawable/baseline_save_alt_24"
+                        android:textStyle="bold"
+
+
+                        >
+
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+
+                android:src="@drawable/cartmobile"
+
+                android:layout_alignParentStart="true">
+
+            </ImageView>
+
+
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:padding="0dp"
+            android:layout_marginTop="8dp"
+
+            android:background="@color/white"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical"
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SAMSUNG Galaxy  F13, Waterfall Blue"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="90dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="90dp"
+                    android:text="4 GB RAM"
+                    android:layout_marginTop="3dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/teal_700"
+
+                    android:textSize="15sp" >
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="90dp"
+                    android:text="₹ 9,799"
+                    android:textStyle="bold"
+                    android:layout_marginTop="3dp"
+
+                    android:textColor="@color/black"
+                    android:textSize="17sp" >
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="90dp"
+                    android:text="Find Similar >"
+
+                    android:layout_marginTop="13dp"
+
+                    android:textColor="@color/purple_700"
+                    android:textSize="15sp" >
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="0dp"
+                    android:text="In Stock"
+                    android:textColor="@color/teal_700"
+                    android:textSize="15sp" >
+
+                </TextView>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="60dp"
+                        android:drawableStart="@drawable/baseline_delete_outline_24"
+
+                        android:text="Remove"
+                        android:textStyle="bold"
+
+
+                        >
+
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginLeft="100dp"
+                        android:text="Save For Later"
+
+                        android:drawableStart="@drawable/baseline_save_alt_24"
+                        android:textStyle="bold"
+
+
+                        >
+
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+
+                android:src="@drawable/cartmobile"
+
+                android:layout_alignParentStart="true">
+
+            </ImageView>
+
+
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="180dp"-->
+<!--            android:padding="0dp"-->
+<!--            android:layout_marginTop="8dp"-->
+
+<!--            android:background="@color/white"-->
+<!--            >-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:padding="10dp"-->
+<!--                android:orientation="vertical"-git ->
+
+<!--                >-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="REEBOK Edge Identity Running Shoes For Men"-->
+<!--                    android:textSize="15sp"-->
+<!--                    android:layout_marginLeft="90dp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/black"/>-->
+
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginLeft="90dp"-->
+<!--                    android:text="Size: 8"-->
+<!--                    android:layout_marginTop="3dp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/teal_700"-->
+
+<!--                    android:textSize="15sp" >-->
+
+<!--                </TextView>-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginLeft="90dp"-->
+<!--                    android:text="₹ 2599"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:layout_marginTop="3dp"-->
+
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textSize="17sp" >-->
+
+<!--                </TextView>-->
+
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginLeft="90dp"-->
+<!--                    android:text="Find Similar >"-->
+
+<!--                    android:layout_marginTop="13dp"-->
+
+<!--                    android:textColor="@color/purple_700"-->
+<!--                    android:textSize="15sp" >-->
+
+<!--                </TextView>-->
+
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+
+<!--                    android:layout_marginLeft="15dp"-->
+<!--                    android:layout_marginTop="0dp"-->
+<!--                    android:text="In Stock"-->
+<!--                    android:textColor="@color/teal_700"-->
+<!--                    android:textSize="15sp" >-->
+
+<!--                </TextView>-->
+
+
+
+
+<!--                &lt;!&ndash;                    <View&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:layout_width="match_parent"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:layout_height="3dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:layout_marginBottom="10dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        &ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:background="#000"&ndash;&gt;-->
+<!--                &lt;!&ndash;                        android:layout_alignParentBottom="true"&ndash;&gt;-->
+<!--                &lt;!&ndash;                       />&ndash;&gt;-->
+<!--                &lt;!&ndash;                    &ndash;&gt;-->
+
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="34dp"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:orientation="horizontal">-->
+
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginLeft="60dp"-->
+<!--                        android:drawableStart="@drawable/baseline_delete_outline_24"-->
+
+<!--                        android:text="Remove"-->
+<!--                        android:textStyle="bold"-->
+
+
+<!--                        >-->
+
+
+<!--                    </TextView>-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+
+<!--                        android:layout_marginLeft="100dp"-->
+<!--                        android:text="Save For Later"-->
+
+<!--                        android:drawableStart="@drawable/baseline_save_alt_24"-->
+<!--                        android:textStyle="bold"-->
+
+
+<!--                        >-->
+
+
+<!--                    </TextView>-->
+
+
+<!--                </LinearLayout>-->
+
+
+<!--            </LinearLayout>-->
+
+
+<!--            <ImageView-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="100dp"-->
+
+
+<!--                android:src="@drawable/cartshoe"-->
+
+<!--                android:layout_alignParentStart="true">-->
+
+<!--            </ImageView>-->
+
+
+
+
+
+
+
+
+
+
+
+<!--        </RelativeLayout>-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:padding="0dp"
+            android:layout_marginTop="8dp"
+
+            android:background="@color/white"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical"
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RK Collection Trolley Bag, New Arrival"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="90dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="90dp"
+                    android:text="₹ 1,160"
+                    android:textStyle="bold"
+                    android:layout_marginTop="3dp"
+
+                    android:textColor="@color/black"
+                    android:textSize="17sp" >
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="90dp"
+                    android:text="Find Similar >"
+
+                    android:layout_marginTop="13dp"
+
+                    android:textColor="@color/purple_700"
+                    android:textSize="15sp" >
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="8dp"
+                    android:text="In Stock"
+                    android:textColor="@color/teal_700"
+                    android:textSize="15sp" >
+
+                </TextView>
+
+
+
+
+                <!--                    <View-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="3dp"-->
+                <!--                        android:layout_marginBottom="10dp"-->
+                <!--                        -->
+                <!--                        android:background="#000"-->
+                <!--                        android:layout_alignParentBottom="true"-->
+                <!--                       />-->
+                <!--                    -->
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="60dp"
+                        android:drawableStart="@drawable/baseline_delete_outline_24"
+
+                        android:text="Remove"
+                        android:textStyle="bold"
+
+
+                        >
+
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginLeft="100dp"
+                        android:text="Save For Later"
+
+                        android:drawableStart="@drawable/baseline_save_alt_24"
+                        android:textStyle="bold"
+
+
+                        >
+
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+
+                android:src="@drawable/cartbag"
+
+                android:layout_alignParentStart="true">
+
+            </ImageView>
+
+
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:padding="0dp"
+            android:layout_marginTop="8dp"
+
+            android:background="@color/white"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical"
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Handicrafts Paradise Analog Multicolor Watch"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="90dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="90dp"
+                    android:text="₹ 697"
+                    android:textStyle="bold"
+                    android:layout_marginTop="3dp"
+
+                    android:textColor="@color/black"
+                    android:textSize="17sp" >
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="90dp"
+                    android:text="Find Similar >"
+
+                    android:layout_marginTop="13dp"
+
+                    android:textColor="@color/purple_700"
+                    android:textSize="15sp" >
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="0dp"
+                    android:text="In Stock"
+                    android:textColor="@color/teal_700"
+                    android:textSize="15sp" >
+
+                </TextView>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="60dp"
+                        android:drawableStart="@drawable/baseline_delete_outline_24"
+
+                        android:text="Remove"
+                        android:textStyle="bold"
+
+
+                        >
+
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginLeft="100dp"
+                        android:text="Save For Later"
+
+                        android:drawableStart="@drawable/baseline_save_alt_24"
+                        android:textStyle="bold"
+
+
+                        >
+
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+
+                android:src="@drawable/cartclock"
+
+                android:layout_alignParentStart="true">
+
+            </ImageView>
+
+
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,1388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".AFragment">
+
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+<!--    FLIPAKRT GROCERY BUTTON-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+
+
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/smallFlipkart"
+            android:layout_width="0dp"
+            android:layout_height="62dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:src="@drawable/flipkartbuttonblue"
+            android:text="Flipkart" />
+
+
+        <ImageView
+            android:id="@+id/grocery"
+            android:layout_width="0dp"
+            android:layout_height="62dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="5sp"
+            android:paddingTop="3dp"
+            android:layout_marginRight="18dp"
+            android:src="@drawable/grocerybuttongreen" />
+
+
+
+    </LinearLayout>
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_margin="10dp"
+        android:background="#308995"
+        android:drawableEnd="@drawable/baseline_photo_camera_24"
+        android:drawableLeft="@drawable/baseline_mic_none_24"
+
+        android:backgroundTint="@color/white"
+        android:drawableStart="@drawable/baseline_search_24"
+        android:elevation="100dp"
+        android:hint="Search for products">
+    </EditText>
+
+
+
+
+<!--    IMAGE SLIDER-->
+    <com.denzcoskun.imageslider.ImageSlider
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        app:iss_auto_cycle="true"
+        app:iss_delay="0"
+        app:iss_period="2000"
+        app:iss_corner_radius="5"
+
+        android:id="@+id/homeImage_slider">
+
+    </com.denzcoskun.imageslider.ImageSlider>
+
+
+
+<!--    RECYCLER VIEW-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler_view"
+        android:layout_marginTop="10dp"/>
+
+
+
+
+
+    <!-- SPONSORED-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:text="Sponsored"
+        android:layout_marginLeft="12dp"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="3"
+        android:layout_marginTop="15dp"
+
+
+
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/home_boat"
+
+
+
+
+                android:src="@drawable/recyclerimg1">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/home_fitshot"
+
+
+                android:src="@drawable/recyclerimg2">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="10dp"
+
+                android:id="@+id/home_happilo"
+
+
+
+                android:src="@drawable/recyclerimg3">
+
+            </ImageView>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:orientation="horizontal">
+
+
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/boult"
+
+
+
+            android:src="@drawable/recyclerimg4">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+
+            android:id="@+id/boat2"
+
+            android:src="@drawable/recyclerimg5">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/aeroborne"
+
+
+
+            android:src="@drawable/recyclerimg6">
+
+        </ImageView>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <!--    RECYCLER VIEW 2-->
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="10dp"
+        app:cardBackgroundColor="#DAECDD"
+
+        >
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+
+        android:id="@+id/recycler_view2"
+        android:layout_marginTop="19dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <!-- PRICE DROP ALERT-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:orientation="vertical"
+        >
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+
+            android:src="@drawable/home_pricedropalert"
+            >
+
+
+
+
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_marginTop="5dp"
+
+
+
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="170dp"
+                    android:layout_height="180dp"
+                    android:layout_marginLeft="5dp"
+
+                    android:layout_weight="1"
+                    android:id="@+id/shoe"
+
+                    android:src="@drawable/homeshoe">
+
+                </ImageView>
+                <ImageView
+                    android:layout_width="170dp"
+                    android:layout_height="180dp"
+                    android:layout_marginLeft="10dp"
+
+                    android:layout_weight="1"
+                    android:id="@+id/flights"
+
+
+                    android:src="@drawable/home_plane">
+
+                </ImageView>
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:weightSum="1"
+                android:orientation="horizontal">
+
+
+
+                <ImageView
+                    android:layout_width="170dp"
+                    android:layout_height="180dp"
+                    android:layout_marginLeft="5dp"
+
+                    android:layout_weight="0.5"
+                    android:id="@+id/medicine"
+
+
+                    android:src="@drawable/home_medicine">
+
+                </ImageView>
+                <ImageView
+                    android:layout_width="170dp"
+                    android:layout_height="180dp"
+                    android:layout_marginLeft="10dp"
+
+                    android:id="@+id/medicine2"
+                    android:layout_weight="0.5"
+
+                    android:src="@drawable/home_medee">
+
+                </ImageView>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+    <!--     GROCERY -->
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"
+        app:cardBackgroundColor="#C8DDD1"
+
+        android:elevation="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grocery"
+            android:textColor="@color/black"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+
+
+            ></TextView>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="3"
+            android:layout_marginTop="45dp"
+
+
+
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="5dp"
+
+                    android:id="@+id/homeGrocery"
+
+
+
+
+                    android:src="@drawable/home_grocery">
+
+                </ImageView>
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="10dp"
+
+
+                    android:id="@+id/homeGrocerycola"
+
+                    android:src="@drawable/home_cola">
+
+                </ImageView>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="5dp"
+
+                    android:id="@+id/tata"
+
+
+
+                    android:src="@drawable/home_tata">
+
+                </ImageView>
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="10dp"
+
+                    android:id="@+id/fortune"
+
+
+                    android:src="@drawable/home_fortune">
+
+                </ImageView>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+    <!--    NEW CHILD TV-->
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+
+
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="220dp"
+            android:layout_marginLeft="5dp"
+
+            android:layout_weight="1"
+
+            android:id="@+id/tv"
+
+
+            android:src="@drawable/tv">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="220dp"
+            android:layout_marginLeft="10dp"
+
+            android:id="@+id/wheat"
+
+            android:layout_weight="1"
+
+            android:src="@drawable/wheat">
+
+        </ImageView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+
+
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="220dp"
+            android:layout_marginLeft="5dp"
+
+            android:layout_weight="1"
+
+            android:id="@+id/toy"
+
+
+            android:src="@drawable/child">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="220dp"
+            android:layout_marginLeft="10dp"
+
+
+            android:id="@+id/decoration"
+            android:layout_weight="1"
+
+            android:src="@drawable/decoration">
+
+        </ImageView>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+
+<!--    HELP-->
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/home_help">
+
+        </ImageView>
+
+
+<!--    GROCERY -->
+
+
+
+<!--    SPONSORED-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:text="Sponsored"
+        android:layout_marginLeft="12dp"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        android:id="@+id/sponsoredCard"
+        android:src="@drawable/home_card">
+
+
+    </ImageView>
+
+
+
+<!--    APPLY NOW-->
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"
+        app:cardBackgroundColor="#DDD2D2"
+
+        android:elevation="25dp">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:weightSum="3"
+        android:layout_weight="3">
+
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="5dp"
+
+            android:id="@+id/cardOne"
+
+            android:layout_weight="1"
+
+
+            android:src="@drawable/applyone">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+
+            android:id="@+id/cardtwo"
+            android:layout_weight="1"
+
+            android:src="@drawable/applytwo">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_weight="1"
+
+            android:id="@+id/cardthree"
+
+            android:src="@drawable/applythree">
+
+        </ImageView>
+
+
+    </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+<!--    RECOMMENDED FOR YOU-->
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"
+        app:cardBackgroundColor="#AEAC87"
+
+        android:elevation="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recommended For You"
+            android:textColor="@color/black"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+
+
+            ></TextView>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="3"
+            android:layout_marginTop="45dp"
+
+
+
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="5dp"
+
+
+                    android:id="@+id/recboat"
+
+
+
+                    android:src="@drawable/recyclerimg1">
+
+                </ImageView>
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="10dp"
+
+
+                    android:id="@+id/recfitshot"
+                    android:src="@drawable/recyclerimg2">
+
+                </ImageView>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="5dp"
+
+                    android:id="@+id/recboult"
+
+
+                    android:src="@drawable/recyclerimg4">
+
+                </ImageView>
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="10dp"
+
+                    android:id="@+id/recboattwo"
+
+                    android:src="@drawable/recyclerimg5">
+
+                </ImageView>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+            <!--        botoom meun rkna hai-->
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+<!--    TOP DISCOUNTS FOR YOU-->
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"
+        app:cardBackgroundColor="#DAD1E1"
+
+        android:elevation="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top Discount For You"
+            android:textColor="@color/black"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+
+
+            ></TextView>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="3"
+            android:layout_marginTop="45dp"
+
+
+
+
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="5dp"
+
+                    android:id="@+id/personal"
+
+
+                    android:src="@drawable/home_shampoo">
+
+                </ImageView>
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="10dp"
+
+                    android:id="@+id/fitness"
+
+                    android:src="@drawable/home_bucket">
+
+                </ImageView>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="5dp"
+
+
+                    android:id="@+id/chasmna"
+
+                    android:src="@drawable/home_glasses">
+
+                </ImageView>
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="10dp"
+
+
+                    android:id="@+id/dryfruit"
+                    android:src="@drawable/home_dryfruits">
+
+                </ImageView>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:weightSum="2"
+        android:layout_marginTop="13dp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="5dp"
+
+            android:layout_weight="1"
+
+
+
+            android:src="@drawable/home_clock">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_weight="1"
+
+            android:src="@drawable/home_sunglasses">
+
+        </ImageView>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:weightSum="2"
+        android:paddingTop="8dp"
+        android:orientation="horizontal">
+
+
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="5dp"
+
+            android:layout_weight="1"
+
+
+            android:src="@drawable/home_realme">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+
+
+            android:layout_weight="1"
+            android:src="@drawable/home_hand">
+
+        </ImageView>
+
+
+
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:text="Sponsored"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="8dp"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="6dp"
+
+        android:src="@drawable/haier">
+
+
+    </ImageView>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+
+
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="220dp"
+            android:layout_marginLeft="5dp"
+
+            android:layout_weight="1"
+
+
+
+            android:src="@drawable/net">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="220dp"
+            android:layout_marginLeft="10dp"
+
+
+            android:layout_weight="1"
+
+            android:src="@drawable/flightstravel">
+
+        </ImageView>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"
+        app:cardBackgroundColor="#C9D1B6"
+
+        android:elevation="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top Discount For You"
+            android:textColor="@color/black"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+
+
+            ></TextView>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="3"
+            android:layout_marginTop="45dp"
+
+
+
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="5dp"
+
+
+
+
+                    android:src="@drawable/whiteshoe">
+
+                </ImageView>
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="10dp"
+
+
+                    android:src="@drawable/gun">
+
+                </ImageView>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="5dp"
+
+
+
+                    android:src="@drawable/motor">
+
+                </ImageView>
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="10dp"
+
+
+                    android:src="@drawable/iphone">
+
+                </ImageView>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+<!--    TV CHILD-->
+
+
+
+
+
+<!--    LAST-->
+
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"
+        app:cardBackgroundColor="#C9D1B6"
+
+        android:elevation="25dp">
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Top Discount For Your"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:layout_marginLeft="12dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:textStyle="bold"-->
+
+
+<!--            ></TextView>-->
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_marginTop="20dp"
+
+
+
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="220dp"
+                    android:layout_marginLeft="5dp"
+
+
+                    android:layout_weight="1"
+
+
+                    android:src="@drawable/bigone">
+
+                </ImageView>
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="220dp"
+                    android:layout_marginLeft="10dp"
+
+                    android:layout_weight="1"
+
+                    android:src="@drawable/bigtwo">
+
+                </ImageView>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:layout_marginTop="8dp"
+                android:weightSum="2"
+                android:orientation="horizontal">
+
+
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="220dp"
+                    android:layout_marginLeft="5dp"
+
+                    android:layout_weight="1"
+
+
+                    android:src="@drawable/bigthree">
+
+                </ImageView>
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="220dp"
+                    android:layout_marginLeft="10dp"
+
+
+                    android:layout_weight="1"
+                    android:src="@drawable/bigfour">
+
+                </ImageView>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+</LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
