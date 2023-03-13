@@ -407,7 +407,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="SAMSUNG Galaxy  F13, Waterfall Blue"
+                    android:text="REEBOK Edge Identity Running Shoes"
                     android:textSize="15sp"
                     android:layout_marginLeft="90dp"
                     android:textStyle="bold"
@@ -418,7 +418,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="90dp"
-                    android:text="4 GB RAM"
+                    android:text="Size: 8"
                     android:layout_marginTop="3dp"
                     android:textStyle="bold"
                     android:textColor="@color/teal_700"
@@ -431,7 +431,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="90dp"
-                    android:text="₹ 9,799"
+                    android:text="₹ 2599"
                     android:textStyle="bold"
                     android:layout_marginTop="3dp"
 
@@ -468,6 +468,17 @@
                 </TextView>
 
 
+
+
+                <!--                    <View-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="3dp"-->
+                <!--                        android:layout_marginBottom="10dp"-->
+                <!--                        -->
+                <!--                        android:background="#000"-->
+                <!--                        android:layout_alignParentBottom="true"-->
+                <!--                       />-->
+                <!--                    -->
 
 
                 <LinearLayout
@@ -520,7 +531,7 @@
                 android:layout_height="100dp"
 
 
-                android:src="@drawable/cartmobile"
+                android:src="@drawable/cartshoe"
 
                 android:layout_alignParentStart="true">
 
@@ -537,168 +548,6 @@
 
 
         </RelativeLayout>
-
-<!--        <RelativeLayout-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="180dp"-->
-<!--            android:padding="0dp"-->
-<!--            android:layout_marginTop="8dp"-->
-
-<!--            android:background="@color/white"-->
-<!--            >-->
-
-<!--            <LinearLayout-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:padding="10dp"-->
-<!--                android:orientation="vertical"-git ->
-
-<!--                >-->
-
-<!--                <TextView-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:text="REEBOK Edge Identity Running Shoes For Men"-->
-<!--                    android:textSize="15sp"-->
-<!--                    android:layout_marginLeft="90dp"-->
-<!--                    android:textStyle="bold"-->
-<!--                    android:textColor="@color/black"/>-->
-
-
-<!--                <TextView-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:layout_marginLeft="90dp"-->
-<!--                    android:text="Size: 8"-->
-<!--                    android:layout_marginTop="3dp"-->
-<!--                    android:textStyle="bold"-->
-<!--                    android:textColor="@color/teal_700"-->
-
-<!--                    android:textSize="15sp" >-->
-
-<!--                </TextView>-->
-
-<!--                <TextView-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:layout_marginLeft="90dp"-->
-<!--                    android:text="₹ 2599"-->
-<!--                    android:textStyle="bold"-->
-<!--                    android:layout_marginTop="3dp"-->
-
-<!--                    android:textColor="@color/black"-->
-<!--                    android:textSize="17sp" >-->
-
-<!--                </TextView>-->
-
-
-<!--                <TextView-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:layout_marginLeft="90dp"-->
-<!--                    android:text="Find Similar >"-->
-
-<!--                    android:layout_marginTop="13dp"-->
-
-<!--                    android:textColor="@color/purple_700"-->
-<!--                    android:textSize="15sp" >-->
-
-<!--                </TextView>-->
-
-
-<!--                <TextView-->
-<!--                    android:layout_width="wrap_content"-->
-<!--                    android:layout_height="wrap_content"-->
-
-<!--                    android:layout_marginLeft="15dp"-->
-<!--                    android:layout_marginTop="0dp"-->
-<!--                    android:text="In Stock"-->
-<!--                    android:textColor="@color/teal_700"-->
-<!--                    android:textSize="15sp" >-->
-
-<!--                </TextView>-->
-
-
-
-
-<!--                &lt;!&ndash;                    <View&ndash;&gt;-->
-<!--                &lt;!&ndash;                        android:layout_width="match_parent"&ndash;&gt;-->
-<!--                &lt;!&ndash;                        android:layout_height="3dp"&ndash;&gt;-->
-<!--                &lt;!&ndash;                        android:layout_marginBottom="10dp"&ndash;&gt;-->
-<!--                &lt;!&ndash;                        &ndash;&gt;-->
-<!--                &lt;!&ndash;                        android:background="#000"&ndash;&gt;-->
-<!--                &lt;!&ndash;                        android:layout_alignParentBottom="true"&ndash;&gt;-->
-<!--                &lt;!&ndash;                       />&ndash;&gt;-->
-<!--                &lt;!&ndash;                    &ndash;&gt;-->
-
-
-<!--                <LinearLayout-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="34dp"-->
-<!--                    android:layout_marginTop="10dp"-->
-<!--                    android:orientation="horizontal">-->
-
-
-<!--                    <TextView-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:layout_marginLeft="60dp"-->
-<!--                        android:drawableStart="@drawable/baseline_delete_outline_24"-->
-
-<!--                        android:text="Remove"-->
-<!--                        android:textStyle="bold"-->
-
-
-<!--                        >-->
-
-
-<!--                    </TextView>-->
-
-<!--                    <TextView-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-
-<!--                        android:layout_marginLeft="100dp"-->
-<!--                        android:text="Save For Later"-->
-
-<!--                        android:drawableStart="@drawable/baseline_save_alt_24"-->
-<!--                        android:textStyle="bold"-->
-
-
-<!--                        >-->
-
-
-<!--                    </TextView>-->
-
-
-<!--                </LinearLayout>-->
-
-
-<!--            </LinearLayout>-->
-
-
-<!--            <ImageView-->
-<!--                android:layout_width="100dp"-->
-<!--                android:layout_height="100dp"-->
-
-
-<!--                android:src="@drawable/cartshoe"-->
-
-<!--                android:layout_alignParentStart="true">-->
-
-<!--            </ImageView>-->
-
-
-
-
-
-
-
-
-
-
-
-<!--        </RelativeLayout>-->
 
         <RelativeLayout
             android:layout_width="match_parent"

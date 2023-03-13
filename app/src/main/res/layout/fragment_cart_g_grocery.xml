@@ -353,7 +353,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="REEBOK Edge Identity Running Shoes For Men"
+                        android:text="REEBOK Edge Identity Running Shoe"
                         android:textSize="15sp"
                         android:layout_marginLeft="90dp"
                         android:textStyle="bold"
@@ -557,8 +557,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
 
-                        android:layout_marginLeft="15dp"
-                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginTop="14dp"
                         android:text="In Stock"
                         android:textColor="@color/teal_700"
                         android:textSize="15sp" >
