@@ -85,7 +85,7 @@
         android:layout_height="210dp"
         app:iss_auto_cycle="true"
         app:iss_delay="0"
-        app:iss_period="2500"
+        app:iss_period="2600"
         app:iss_corner_radius="5"
 
         android:id="@+id/homeImage_slider">
