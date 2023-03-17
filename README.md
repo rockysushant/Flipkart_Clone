@@ -10,6 +10,14 @@ flipakrt   app , java , Android Studio
 
 
 
+<img align="left" src="https://cloud.githubusercontent.com/assets/532272/21507867/3376e9fe-cc4a-11e6-9350-7ec4f680da36.gif">
+
+some text aligned to the right of the image
+
+<br clear="left"/>
+
+and some text that is below the image (without an obnoxious number of <br /> tags).
+
 
 <!-- <p align="center">
   <img width="1000" height="1500" src="https://user-images.githubusercontent.com/99118017/225328644-e26b8a8b-3e4e-4eee-be74-52a2db04a39f.jpg">
