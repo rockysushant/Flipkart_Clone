@@ -1,12 +1,12 @@
 # Flipkart_Clone
 flipakrt   app , java , Android Studio
 
-<img align="left" width="600" height="1000" src="https://user-images.githubusercontent.com/99118017/225328644-e26b8a8b-3e4e-4eee-be74-52a2db04a39f.jpg">
+<img align="left" width="100" height="1000" src="https://user-images.githubusercontent.com/99118017/225328644-e26b8a8b-3e4e-4eee-be74-52a2db04a39f.jpg">
 
 
-<img align="left" width="600" height="1000" src="https://user-images.githubusercontent.com/99118017/225328663-6ff1aaaa-45eb-4667-997f-ee297c9a35a1.jpg">
+<img align="left" width="100" height="1000" src="https://user-images.githubusercontent.com/99118017/225328663-6ff1aaaa-45eb-4667-997f-ee297c9a35a1.jpg">
 
-<img align="left" width="600" height="1000" src="https://user-images.githubusercontent.com/99118017/225328701-0500d81c-9588-4ddb-bdec-719ecb1a6af3.jpg">
+<img align="left" width="100" height="1000" src="https://user-images.githubusercontent.com/99118017/225328701-0500d81c-9588-4ddb-bdec-719ecb1a6af3.jpg">
 
 
 
