@@ -2,7 +2,7 @@
 flipakrt   app , java , Android Studio
 
 <p align="center">
-  <img width="1000" height="1000" src="https://user-images.githubusercontent.com/99118017/225328644-e26b8a8b-3e4e-4eee-be74-52a2db04a39f.jpg">
+  <img width="1000" height="1500" src="https://user-images.githubusercontent.com/99118017/225328644-e26b8a8b-3e4e-4eee-be74-52a2db04a39f.jpg">
 </p>
 
 
