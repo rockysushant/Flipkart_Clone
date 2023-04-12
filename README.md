@@ -5,7 +5,6 @@ flipakrt   app , java , Android Studio
 <img align="right" width="300" height="700" src="https://user-images.githubusercontent.com/99118017/225328663-6ff1aaaa-45eb-4667-997f-ee297c9a35a1.jpg">
 
 
-/n
 
 
 <img align="left" width="300" height="700" src="https://user-images.githubusercontent.com/99118017/225328701-0500d81c-9588-4ddb-bdec-719ecb1a6af3.jpg">
