@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
         bnView = findViewById(R.id.bnView);
 
 
