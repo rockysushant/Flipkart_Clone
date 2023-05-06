@@ -498,9 +498,7 @@ public class AFragment extends Fragment implements MainAdapter.OnItemClick, Main
         imageList.add(new SlideModel(R.drawable.imageslider17, null));
         imageList.add(new SlideModel(R.drawable.imageslider15, null));
         imageList.add(new SlideModel(R.drawable.imageslider14, null));
-//        imageList.add(new SlideModel(R.drawable.imageslider15, null));
-//        imageList.add(new SlideModel(R.drawable.imageslider16, null));
-//        imageList.add(new SlideModel(R.drawable.imageslider3, null));
+
         imageSlider.setImageList(imageList);
     }
 
