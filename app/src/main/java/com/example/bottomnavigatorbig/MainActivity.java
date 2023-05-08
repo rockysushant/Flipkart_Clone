@@ -41,10 +41,6 @@ public class MainActivity extends AppCompatActivity {
 
         FirebaseMessaging.getInstance().subscribeToTopic("notification");
 
-
-
-
-
         bnView = findViewById(R.id.bnView);
 
 
@@ -52,6 +48,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 int id = item.getItemId();
+
+                //hii
 
                 if(id==R.id.nav_home){
                 loadFrag(new AFragment(),false);   // sab true ko false kiye hai
