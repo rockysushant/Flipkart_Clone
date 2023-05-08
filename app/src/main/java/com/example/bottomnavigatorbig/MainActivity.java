@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 int id = item.getItemId();
 
-                //hii
+
 
                 if(id==R.id.nav_home){
                 loadFrag(new AFragment(),false);   // sab true ko false kiye hai
