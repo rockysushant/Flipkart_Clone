@@ -19,7 +19,7 @@
             android:layout_height="match_parent"
             android:background="#F1EEED"
             android:orientation="vertical"
-            tools:context=".EFragment">
+            tools:context=".BottomNavFragments.EFragment">
 
 
             <LinearLayout

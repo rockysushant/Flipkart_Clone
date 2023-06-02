@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".categories_sellBack">
+    tools:context=".CategoriesSection.categories_sellBack">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

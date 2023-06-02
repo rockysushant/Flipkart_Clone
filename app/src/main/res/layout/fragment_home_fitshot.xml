@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".home_fitshot">
+    tools:context=".HomeSection.home_fitshot">
 
     <!-- TODO: Update blank fragment layout -->
 

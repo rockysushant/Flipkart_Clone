@@ -6,7 +6,7 @@
     android:background="#F1F6C0"
     android:orientation="vertical"
 
-    tools:context=".DFragment">
+    tools:context=".BottomNavFragments.DFragment">
 
 
 

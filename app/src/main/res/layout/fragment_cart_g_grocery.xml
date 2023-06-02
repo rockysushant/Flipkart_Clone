@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ADE6E1"
-    tools:context=".cart_gGrocery">
+    tools:context=".TabView.cart_gGrocery">
 
     <ScrollView
         android:layout_width="match_parent"
