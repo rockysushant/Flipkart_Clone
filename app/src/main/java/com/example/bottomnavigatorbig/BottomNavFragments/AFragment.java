@@ -1,19 +1,17 @@
 package com.example.bottomnavigatorbig.BottomNavFragments;
 
 import android.os.Bundle;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.ActionBar;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-
 import com.denzcoskun.imageslider.ImageSlider;
 import com.denzcoskun.imageslider.models.SlideModel;
 import com.example.bottomnavigatorbig.MainActivity;
@@ -64,6 +62,8 @@ public class AFragment extends Fragment implements MainAdapter.OnItemClick, Main
     MainAdapter mainAdapter;
     MainAdapter2 mainAdapter2;
 
+    ActionBar actionBar;
+
 
     public AFragment() {
         // Required empty public constructor
@@ -73,8 +73,12 @@ public class AFragment extends Fragment implements MainAdapter.OnItemClick, Main
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+//       ActionBar  actionBar = ((AppCompatActivity)getActivity()).getActionBar();
+
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.home_a, container, false);
+
     }
 
 

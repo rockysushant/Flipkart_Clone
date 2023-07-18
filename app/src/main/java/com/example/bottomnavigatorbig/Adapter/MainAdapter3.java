@@ -1,6 +1,7 @@
 package com.example.bottomnavigatorbig.Adapter;
 
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -21,7 +22,6 @@ public class MainAdapter3 extends  RecyclerView.Adapter<MainAdapter3.ViewHolder>
 
     ArrayList<MainModel3> mainModels3;
     Context context;
-
     OnItemClick onItemClick;
 
 
@@ -42,10 +42,6 @@ public class MainAdapter3 extends  RecyclerView.Adapter<MainAdapter3.ViewHolder>
         return new ViewHolder(view);
 
 
-
-
-
-
     }
 
 
@@ -53,13 +49,11 @@ public class MainAdapter3 extends  RecyclerView.Adapter<MainAdapter3.ViewHolder>
         void onClick(int position );
 
 
-
-
     }
 
 
     @Override
-    public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull ViewHolder holder, @SuppressLint("RecyclerView") int position) {
 
         //set Logo to imageview
 
@@ -67,8 +61,6 @@ public class MainAdapter3 extends  RecyclerView.Adapter<MainAdapter3.ViewHolder>
         //set name to textView
 
 //        holder.textView.setText(mainModels.get(position).getLangName());
-
-
 
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {
@@ -90,7 +82,7 @@ public class MainAdapter3 extends  RecyclerView.Adapter<MainAdapter3.ViewHolder>
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
-        //initializw variable
+        //initialize variable
 
         ImageView imageView;
         TextView textView;

@@ -21,13 +21,15 @@ public class CartAdapter extends FragmentPagerAdapter {
            return new cart_Quick();
        }
 
-
-
     }
+
+
+    //NO OF TABS
 
     @Override
     public int getCount() {
-        return 3; // no of tabs
+        return 3;
+
     }
 
 
@@ -35,12 +37,18 @@ public class CartAdapter extends FragmentPagerAdapter {
     @Override
     public CharSequence getPageTitle(int position) {
        if(position == 0){
+
            return "Flipkart";
+
+
        }else if(position == 1){
+
            return "Grocery";
 
        }else{
+
            return "Quick";
+
        }
 
     }

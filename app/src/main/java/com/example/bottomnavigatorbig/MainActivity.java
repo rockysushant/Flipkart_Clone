@@ -5,13 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
-
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.view.Window;
-import android.view.WindowManager;
-
 import com.example.bottomnavigatorbig.BottomNavFragments.AFragment;
 import com.example.bottomnavigatorbig.BottomNavFragments.BFragment;
 import com.example.bottomnavigatorbig.BottomNavFragments.CFragment;
@@ -29,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+
 //        supportRequestWindowFeature(Window.FEATURE_NO_TITLE);
 //        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
@@ -43,7 +41,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 int id = item.getItemId();
-
 
 
                 if(id==R.id.nav_home){
@@ -63,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
                     loadFrag(new CFragment(),false);
                     getSupportActionBar().show();
                     getSupportActionBar().setTitle("Notification");
+                    getSupportActionBar().setIcon();
 
                 }else if(id==R.id.nav_cart){
                         loadFrag(new DFragment(),false);

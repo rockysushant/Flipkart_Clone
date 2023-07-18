@@ -5,10 +5,7 @@
     android:layout_height="match_parent"
     android:background="#F1F6C0"
     android:orientation="vertical"
-
     tools:context=".BottomNavFragments.DFragment">
-
-
 
 
 <com.google.android.material.tabs.TabLayout

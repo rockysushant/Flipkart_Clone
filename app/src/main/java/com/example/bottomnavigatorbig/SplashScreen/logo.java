@@ -28,20 +28,7 @@ public class logo extends AppCompatActivity {
                 startActivity(intent);
                 finish();
             }
+
         },2500);
     }
 }
-
-
-
-//<activity
-//            android:name=".logo"
-//                    android:exported="true">
-//<intent-filter>
-//<action android:name="android.intent.action.MAIN" />
-//
-//<category android:name="android.intent.category.LAUNCHER" />
-//</intent-filter>
-//
-//
-//</activity>

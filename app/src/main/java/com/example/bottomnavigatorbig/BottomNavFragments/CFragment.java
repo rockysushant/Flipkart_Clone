@@ -1,5 +1,6 @@
 package com.example.bottomnavigatorbig.BottomNavFragments;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -37,4 +38,10 @@ public class CFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
     }
+
+//    public void notificationBack(View view){
+//        Intent intent = new Intent(Bottom)
+//    }
+
+
 }

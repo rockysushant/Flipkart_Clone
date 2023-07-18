@@ -9,9 +9,7 @@ public class MainModel2 {
     public  MainModel2(Integer langLogos, String langName){
         this.langLogos = langLogos;
         this.langName = langName;
-
-
-
+        
     }
 
     public  Integer getLangLogos(){

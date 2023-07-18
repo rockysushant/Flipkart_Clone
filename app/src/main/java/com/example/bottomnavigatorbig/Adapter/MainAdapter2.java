@@ -1,6 +1,7 @@
 package com.example.bottomnavigatorbig.Adapter;
 
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -59,11 +60,11 @@ public class MainAdapter2 extends  RecyclerView.Adapter<MainAdapter2.ViewHolder>
 
 
     @Override
-    public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull ViewHolder holder, @SuppressLint("RecyclerView") int position) {
 
         //set Logo to imageview
 
-        holder.imageView2.setImageResource(mainModels2.get(position).getLangLogos());    // LANGLOGOS?
+        holder.imageView2.setImageResource(mainModels2.get(position).getLangLogos());    // LANG LOGOS?
         //set name to textView
 
 //        holder.textView.setText(mainModels.get(position).getLangName());
@@ -90,7 +91,7 @@ public class MainAdapter2 extends  RecyclerView.Adapter<MainAdapter2.ViewHolder>
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
-        //initializw variable
+        //initialize variable
 
         ImageView imageView2;
         TextView textView;
