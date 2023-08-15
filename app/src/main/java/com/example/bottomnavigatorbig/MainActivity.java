@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                     loadFrag(new CFragment(),false);
                     getSupportActionBar().show();
                     getSupportActionBar().setTitle("Notification");
-                    getSupportActionBar().setIcon();
+//                    getSupportActionBar().setIcon();
 
                 }else if(id==R.id.nav_cart){
                         loadFrag(new DFragment(),false);
